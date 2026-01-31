@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "ids": "ea334450945afc",
+    "name": "Kitchen Door Lock",
+    "mf": "Bla electronics",
+    "mdl": "xya",
+    "sw": "1.0",
+    "sn": "ea334450945afc",
+    "hw": "1.0rev2"
+  },
+  "o": {
+    "name": "bla2mqtt",
+    "sw": "2.1",
+    "url": "https://bla2mqtt.example.com/support"
+  },
+  "name": "Kitchen Door Lock",
+  "unique_id": "lock01ae",
+  "state_topic": "homeassistant/kitchen/lock/state",
+  "command_topic": "homeassistant/kitchen/lock/set",
+  "payload_lock": "LOCK",
+  "payload_unlock": "UNLOCK",
+  "state_locked": "LOCKED",
+  "state_unlocked": "UNLOCKED",
+  "optimistic": false,
+  "qos": 2,
+  "retain": true
+}
